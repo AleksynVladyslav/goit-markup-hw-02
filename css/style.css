@@ -18,12 +18,23 @@ body {
   color: var(--slate);
 }
 
+/* common styles */
+
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+}
+
+.subtitle-20 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--navy-blue);
 }
 
 /* INDEX */
@@ -103,11 +114,6 @@ body {
 .advantages-title {
 }
 .advantages-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-  color: var(--navy-blue);
 }
 .advantages-text {
 }
@@ -139,15 +145,13 @@ body {
   background-color: var(--white);
 }
 .team-subtitle {
-  font-weight: 500;
-  color: var(--navy-blue);
 }
 .team-img {
 }
 .team-text {
 }
 
-/* footer */
+/* Footer */
 .footer {
   background-color: var(--navy-blue);
 }
@@ -156,4 +160,39 @@ body {
 }
 .footer-text {
   color: var(--cornflower);
+}
+
+/* PORTFOLIO */
+
+/* Main */
+
+.filter-list {
+}
+.filter-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.filter-cards {
+}
+.filter-img {
+}
+
+.filter-description {
+}
+
+.filter-title {
+}
+
+.filter-text {
 }
