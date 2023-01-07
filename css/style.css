@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Montserrat', 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -28,6 +28,13 @@ body {
   text-decoration: none;
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+}
 .subtitle-20 {
   font-weight: 500;
   font-size: 20px;
@@ -42,7 +49,7 @@ body {
 /* Header */
 
 .logo {
-  font-family: 'Raleway', 'Sofia Sans', 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -87,7 +94,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
 
@@ -96,9 +102,6 @@ body {
   text-align: center;
 }
 .hero-btn {
-  font-weight: 500;
-  letter-spacing: 0.04em;
-
   color: var(--white);
   background-color: var(--iris);
 
@@ -121,7 +124,6 @@ body {
 /* work */
 .team-title,
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
 
@@ -139,10 +141,9 @@ body {
 }
 .team-title {
 }
-.team-list {
+.team-cards {
 }
-.team-list > li {
-  background-color: var(--white);
+.team-card {
 }
 .team-subtitle {
 }
@@ -187,10 +188,6 @@ body {
 }
 .filter-img {
 }
-
-.filter-description {
-}
-
 .filter-title {
 }
 
